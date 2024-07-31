@@ -16,7 +16,7 @@ function translate()
 {
   text.textContent = "";
   const string = input.value.split(" ");
-  for(let i = 0; i<string.lenght; i++)
+  for(let i = 0; i<string.length; i++)
   {
       text.textContent = text.textContent + random() + "ga b" + random() + "ga ";
   }
