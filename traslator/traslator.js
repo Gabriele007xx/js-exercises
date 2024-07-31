@@ -4,6 +4,7 @@ const button = document.getElementById("button");
 function random()
 {
     const random = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+    let string = "";
     for (let i = 0; i < random; i++) 
     {
          string += "o";
@@ -13,8 +14,9 @@ function random()
 
 function translate()
 {
+  text.textContent = "";
   const string = input.value.split(" ");
-  for(let i = 0; i++; i<string.lenght)
+  for(let i = 0; i<string.lenght; i++)
   {
       text.textContent = text.textContent + random() + "ga b" + random() + "ga ";
   }
