@@ -3,7 +3,7 @@ const input = document.getElementById("input");
 const button = document.getElementById("button");
 function random()
 {
-    const random = Math.random();
+    const random = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
     let string;
     for(let i = 0; i++; i<=random)
     {
