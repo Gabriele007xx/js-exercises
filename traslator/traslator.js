@@ -20,4 +20,4 @@ function translate()
       text.textContent = text.textContent + random() + "ga b" + random() + "ga ";
   }
 }
-button.addEventListener("click", traslate);
+button.addEventListener("click", translate);
