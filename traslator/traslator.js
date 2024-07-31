@@ -4,12 +4,11 @@ const button = document.getElementById("button");
 function random()
 {
     const random = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
-    let string;
-    for(let i = 0; i++; i<=random)
+    for (let i = 0; i < random; i++) 
     {
-      string = string + "o";
-    }    
-    return string;
+         string += "o";
+     }
+     return string;
 }
 
 function translate()
