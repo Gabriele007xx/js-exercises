@@ -3,7 +3,7 @@ const input = document.getElementById("input");
 const button = document.getElementById("button");
 function random()
 {
-    const random = ;
+    const random = Math.random();
     let string;
     for(let i = 0; i++; i<=random)
     {
@@ -17,7 +17,7 @@ function translate()
   const string = input.value.split(" ");
   for(let i = 0; i++; i<string.lenght)
   {
-      text.value = text.value + random() + "ga b" + random() + "ga ";
+      text.textContent = text.textContent + random() + "ga b" + random() + "ga ";
   }
 }
 button.addEventListener("click", traslate);
