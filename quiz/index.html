@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Quante scimmie vali?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="./monkey.avif" width="50%" height="50%">
+    <h1>Quante scimmie vali?</h1>
+    <p>Rispondi alle domande per sapere quante scimmie vali.</p>
+    <div id="root">
+      <form>
+        <span
+          >D1. Sei in starvation di cibo. Le tue uniche opzioni sono per
+          mangiare sono una banana e un piatto di spaghetti. Cosa scegli per
+          garantire di rimanere vivo?</span
+        >
+        <label>
+          <input type="radio" name="q1" value="2" />
+          BANANA? BANANANANA! <i>Monkey noises</i>
+        </label>
+        <label>
+          <input type="radio" name="q1" value="1" />
+          Sono umano! Ho avuto un evoluzione! Spaghetti!
+        </label>
+        <label>
+          <input type="radio" name="q1" value="0" />
+          <i>Muore di fame</i>
+        </label>
+
+        <span>D2.Sei favorevole all'industrializzazione dell'umanità?</span>
+        <label>
+          <input type="radio" name="q2" value="2" />
+          IO? INDUSTRIA? MACCHINE? ANDIAMO A CACCIARE LE FORMICHE INVECE COME LA
+          NATURA VUOLE!
+        </label>
+        <label>
+          <input type="radio" name="q2" value="0" />
+          Il progresso tecnologico è la chiave per andare avanti.
+        </label>
+
+        <span>D3.Come è organizzata la società?</span>
+        <label>
+          <input type="radio" name="q3" value="2" />
+          Tribu'. Scimmia alpha commanda. Si lotta a mani nude nelle elezioni.
+        </label>
+        <label>
+          <input type="radio" name="q3" value="0" />
+          Presidente della repubblica
+        </label>
+        <label>
+          <input type="radio" name="q3" value="1" />
+          Communismo
+        </label>
+      </form>
+      <button id="submit">Vedi quante scimmie vali</button>
+      <h2 id="result"></h2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
