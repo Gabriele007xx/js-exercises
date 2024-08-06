@@ -1,0 +1,27 @@
+#root {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 50vh 50vw;
+    margin: auto;
+}
+
+#button {
+    color: white;
+    border-radius: 3px;
+    background-color: blue;
+}
+
+#text {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
