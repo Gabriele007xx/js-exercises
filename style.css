@@ -1,0 +1,25 @@
+#root {
+    display: flex;
+    flex-direction: row;
+    padding: 50vh 50vw;
+    margin: auto;
+}
+
+#title {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+a {
+    font-size: medium;
+    font-weight: bold;
+}
