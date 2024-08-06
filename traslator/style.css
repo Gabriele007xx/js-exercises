@@ -1,18 +1,16 @@
-#root {
+.root {
     background: gray;
     display: flex;
     flex-direction: column;
-    padding: 50vh 50vw;
-    margin: auto;
 }
 
-#button {
+.button {
     color: white;
     border-radius: 3px;
     background-color: blue;
 }
 
-#text {
+.text {
     color: black;
     font-size: medium;
     font-weight: bold;
@@ -24,4 +22,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }

@@ -14,7 +14,6 @@ function random()
 
 function translate()
 {
-  text.textContent = "";
   const string = input.value.split(" ");
   for(let i = 0; i<string.length; i++)
   {
