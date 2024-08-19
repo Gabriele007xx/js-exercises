@@ -1,4 +1,4 @@
-const text = document.getElementById("texbox");
+const text = document.getElementById("textbox");
 const character = document.getElementById("ctexbox");
 const button = document.getElementById("count");
 const result = document.getElementById("result");
