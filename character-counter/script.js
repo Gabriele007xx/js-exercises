@@ -17,7 +17,7 @@ function changeResult()
   }
   else
   {
-    result.textContent = "Numero caratteri: " + countNumberOf(ctextbox.value);
+    result.textContent = "Numero caratteri: " + countNumberOf(ctextbox.value) - 1;
   }
 }
 
