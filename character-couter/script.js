@@ -1,6 +1,6 @@
 const text = document.getElementById("texbox");
 const character = document.getElementById("ctexbox");
-const button = document.getElementById("action");
+const button = document.getElementById("count");
 const result = document.getElementById("result");
 
 function countNumberOf(char)
