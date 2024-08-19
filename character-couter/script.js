@@ -1,5 +1,5 @@
 const text = document.getElementById("textbox");
-const character = document.getElementById("ctexbox");
+const character = document.getElementById("ctextbox");
 const button = document.getElementById("count");
 const result = document.getElementById("result");
 
@@ -11,7 +11,7 @@ function countNumberOf(char)
 
 function changeResult()
 {
-  if(ctextbox.tvalue == '')
+  if(character.value == '')
   {
     alert("Inserire un carattere");
   }
