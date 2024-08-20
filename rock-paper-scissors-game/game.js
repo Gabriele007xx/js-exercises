@@ -7,7 +7,7 @@ const imageMatch = document.getElementById("imageMatch");
 
 function randomMove()
 {
-  return 0;
+  return Math.floor(Math.random() * (2 - 0 + 1)) + 0;
 }
 
 function game()
