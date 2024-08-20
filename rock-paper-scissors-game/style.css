@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@font-face {
+    font-family: Bentinck Regular;
+    src: url('./common/Bentinck-Regular.woff2');
+  }
+
+  span, h1 {
+    font-family: Bentinck Regular;
+  }
+
+  .playButton {
+    border-radius: 3px;
+    background-color: rgb(14, 53, 68);
+    color: antiquewhite;
+    border-color: rgb(43, 43, 43);
+  }
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
