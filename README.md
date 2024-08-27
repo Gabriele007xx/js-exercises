@@ -4,3 +4,4 @@
 - `traslator`: Traduttore per i cavernicoli.
 - `quiz`: Quiz per vedere quante scimmie vali.
 - `character-counter`: Conta caratteri.
+- `rock-paper-scissors-game`: Carta, forbice e sasso.
