@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test sugar mommy</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+
+    <h1>Test sugar mommy</h1>
+	<p>Grazie alla AI avanzata sviluppata da Gabriele, questo sito capirà da 0 a 100 quanto sei sugar mommy da come muovi il mouse, dallo sguardo, voce, e modi.</p>
+	<h3 id="work"></h3>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar">0%</div>
+    </div>
+	<h2 id="result"></h2>
+	<p id="text"></p>
+    <button onclick="doShit()">Testa quanto sei sugar mommy!</button>
+
+    <script>
+        let progress = 0;
+		let id;
+		const work = document.getElementById("work");
+		const result = document.getElementById("result");
+		const text = document.getElementById("text");
+		function doShit()
+		{
+			id =  setInterval(doWork, 2000);
+		}
+		function doWork()
+		{
+			updateProgress();
+			switch(progress)
+			{
+				case 10:
+					work.textContent = "Sto analizzando te...";
+					break;
+				case 20:
+					work.textContent = "Raccogliendo informazioni...";
+					break;
+				case 50:
+					work.textContent = "Analisi abitudini mammina con algoritmi avanzanti...";
+					break;
+				case 80:
+					work.textContent = "Creazione output...";
+					break;
+				case 100:
+					work.textContent = "Finito!"
+					result.textContent = "Sei una sugar mommy al 100%!"
+					text.textContent = "Congratulazioni, sei 100 sulla scala delle sugar mommy. Possibili conseguenze: attrazione affettiva verso persone molto giovani, istinto materno incontrollato, iperprotezione degli altri, occuparsi delle facende degli altri da madre, e possibile nome sofia.";
+					break;
+				
+			}
+		}
+        function updateProgress() {
+            if (progress < 100) {
+                progress += 10; // Increase progress by 10%
+                const progressBar = document.getElementById('progress-bar');
+                progressBar.style.width = progress + '%';
+                progressBar.textContent = progress + '%';
+            }
+        }
+    </script>
+
+</body>
+</html>
