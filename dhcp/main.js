@@ -1,5 +1,5 @@
 const local_ip="198.162.1."
-
+const list = document.getElementById("list");
 let indirizzi = [];
 
 generateRandomAndress()
@@ -15,4 +15,7 @@ addAndress()
     andress = generateRandomAndress();
   }
   indirizzi = [...indirizzi, andress];
+  const li = document.createElement("li");
+  li.innerHTML=andress;
+  list.appendChild(li);
 }  
